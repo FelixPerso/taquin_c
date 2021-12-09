@@ -2,10 +2,8 @@
 #include <stdlib.h>
 #include <graph.h>
 
-int main(int argc, char const *argv[]) {
+int adecouper(void) {
   InitialiserGraphique();
-  CreerFenetre(10,10,1600,900);
-  EcrireTexte(800,30,"Taquin",2);
   int i;
   int i2;
   int bx=675;
@@ -22,7 +20,4 @@ int main(int argc, char const *argv[]) {
       tab[i][i2]=valtab+1;
     }
   }
-  Touche(XK_Escape);
-  FermerGraphique();
-  return 0;
 }

@@ -96,6 +96,7 @@ int AffichageG(int bx, int by, char* nom_image) {
   i_candidat=(y-departy)/hauteur_case;
   j_candidat=(x-2*departx-bx)/largeur_case;
 
+
   //Souris
   //On detecte si la case est a cote de la blanche
   if (i_candidat==li_trou+1 && j_candidat==col_trou)

@@ -65,7 +65,6 @@ int main(int argc, char const *argv[]) {
         }
 
 }
-
 for(i2=0;i2<decoupagey;i2++) {
   for(i=0;i<decoupagex;i++) {
     //ChargerImage("bob.xpm",posx+bx/decoupagex*i2,posy+by/decoupagey*i,0+bx/decoupagex*i2,0+by/decoupagey*i,(bx-10)/decoupagex,(by-10)/decoupagey);//
